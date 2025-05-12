@@ -1,0 +1,32 @@
+# Python
+myenv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Flask specific (optional)
+instance/
+*.db
+
+# Node modules
+/frontend/stock-analytics-app/node_modules/
+
+# React build files
+/frontend/stock-analytics-app/build/
+frontend/stock-analytics-app/.next/
+frontend/stock-analytics-app/.cache/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment files
+.env
